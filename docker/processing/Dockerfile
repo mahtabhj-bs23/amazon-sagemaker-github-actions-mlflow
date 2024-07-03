@@ -2,7 +2,7 @@ FROM python:3.8-slim
 
 ENV PYTHONUNBUFFERED=TRUE
 
-# install gcc
+# installgcc
 RUN apt-get update \
     && apt-get install gcc -y \
     && apt-get clean
